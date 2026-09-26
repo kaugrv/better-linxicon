@@ -1,0 +1,22 @@
+{
+  "name": "lienxique",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^8.3.0"
+  },
+  "dependencies": {
+    "chroma-js": "^3.2.0",
+    "fetch-json": "^3.5.3",
+    "graphology": "^0.26.0",
+    "graphology-layout-force": "^0.2.4",
+    "sigma": "^3.0.3",
+    "uuid": "^14.0.2"
+  }
+}

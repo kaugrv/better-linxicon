@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="src/style.css">
+    <title>lienxique</title>
+  </head>
+  <body>
+    <div>
+      <script type="module">
+        import { main, addWord } from "/src/graph.js";
+        main();
+        window.addWord = addWord;        
+      </script>
+
+      <form action="javascript:;" onsubmit=" return addWord()">
+        <label for="input-word">Entrer mot</label><br>
+        <input type="text" id="input-word" name="input-word"><br>
+        <input type="submit" value="Envoyer">
+      </form>
+      
+
+      <div id="sigma-container"></div>
+
+    </div>
+
+  </body>
+</html>
