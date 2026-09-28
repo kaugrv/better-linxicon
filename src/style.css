@@ -1,4 +1,18 @@
 #sigma-container {
+  width: 1000px;
   height: 600px;
-  border: solid 1px red;
+  border: solid 3px black;
+}
+
+
+.loader {
+  width: 1000px;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  border: solid 3px black;
+  background-color: white;
+  z-index: 10;
 }
