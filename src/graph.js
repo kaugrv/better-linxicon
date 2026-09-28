@@ -41,9 +41,7 @@ async function getEmbed(word) {
     }
 }
 
-let words = [];
 let wordEmbds = {};
-
 let loader = document.querySelector(".loader");
 
 function checkSimilarityWithWords(newWord, newEmbd) {
@@ -185,14 +183,14 @@ export function drawWords() {
             x: 0,
             y: 0,
             size: 10,
-            color: "#000",
+            color: "#00f",
         });
         graph.addNode(firstWord2, {
             label: firstWord2,
             x: -5,
             y: 5,
             size: 10,
-            color: "#000",
+            color: "#f00",
         });
 
         loader.style.display = "none";
